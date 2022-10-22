@@ -177,6 +177,7 @@ document.body.innerHTML += `
 
             width: var(--window-size-x);
             height: var(--window-size-y);
+            z-index: 1000000;
         }
 
         #CheatingWindow:hover {
