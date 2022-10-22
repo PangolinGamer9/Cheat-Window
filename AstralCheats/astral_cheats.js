@@ -156,13 +156,6 @@ function stop_resizing_cheating_window() {
 document.body.innerHTML += `
 <div id="AstralCheats">
     <style>
-        :root {
-            --window-size-x: 200px;
-            --window-size-y: 200px;
-            --top-bar-height: 0px;
-            --cheating-back-button-size: 0px;
-        }
-
         #cheating_button {
             width: 100%;
             height: fit-content;
@@ -277,4 +270,4 @@ document.body.innerHTML += `
 </div>
 `;
 
-//javascript: var my_awesome_script = document.createElement('script'); my_awesome_script.setAttribute('src','https://gregorywells2007.github.io/Cheat-Window/AstralCheats/astral_cheats.js'); document.head.appendChild(my_awesome_script);
+//javascript: var cheat_window_script = document.createElement('script'); cheat_window_script.setAttribute('src','https://gregorywells2007.github.io/Cheat-Window/AstralCheats/astral_cheats.js'); document.head.appendChild(cheat_window_script);
