@@ -68,9 +68,9 @@ function close_cheat() {
     document.getElementById("cheats_list").classList.add("cheats_shown");
 }
 function load_cheats() {
-    var cheats = loadFile("./AstralCheats/cheats.data");
+    var cheats = loadFile("https://gregorywells2007.github.io/Cheat-Window/AstralCheats/cheats.data");
     for (var k = 0; k < cheats.length; k++) {
-        var cheat_lines = loadFile("./AstralCheats/Cheats/" + cheats[k] + ".widget");
+        var cheat_lines = loadFile("https://gregorywells2007.github.io/Cheat-Window/AstralCheats/Cheats/" + cheats[k] + ".widget");
         var newCheat = new Cheat();
         var loading_data = false;
         var loading_html = false;
@@ -276,3 +276,5 @@ document.body.innerHTML += `
     </div>
 </div>
 `;
+
+//javascript: var my_awesome_script = document.createElement('script'); my_awesome_script.setAttribute('src','https://gregorywells2007.github.io/Cheat-Window/AstralCheats/astral_cheats.js'); document.head.appendChild(my_awesome_script);
