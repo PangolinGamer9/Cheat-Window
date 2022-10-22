@@ -244,6 +244,11 @@ document.body.innerHTML += `
         #cheating_back_button:hover {
             background-color: rgb(190, 190, 190);
         }
+        
+        #cheats_data_html {
+            width: var(--window-size-x);
+            height: calc(var(--window-size-y) - var(--top-bar-height));
+        }
     </style>
 
     <div id="CheatingWindow">
